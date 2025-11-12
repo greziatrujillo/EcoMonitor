@@ -38,15 +38,15 @@ Cerrar sesión
 Está dirigido a los miembros de la familia en un hogar en general o en un negocio, en donde se busque tener un control más monitoreable acerca de los recursos energéticos. Destinada a aquellos que tienen más control sobre los recursos del hogar.
 Aquellas personas que deseen monitorear su consumo de energía en zonas que se vean afectadas por la falta de luz.
 
-- Situaciones de uso
+- Situaciones de uso:
 Para visualizar fácilmente el consumo de los recursos de la casa y hacer más fácil la experiencia rutinaria.
 
-- Información inmediata
+- Información inmediata:
 Para el buen control energético del hogar es necesario que en la página web se pueda ver con claridad el consumo de luz diario conforme pasó del dia. Tambien se deberá actualizar la interfaz cada vez que se abra la aplicación o un botón que refresque los datos. El dashboard con la información general del consumo. La página del consumo de los dispositivos.
 
-- Navegación
+- Navegación:
 Mediante un menú en la parte inferior de la página web.
 Un dashboard con un resumen de la información relevante.
 
-- Acciones o revisiones
+- Acciones o revisiones:
 Mediante un menú en la parte inferior en donde se tengan las pestañas correspondientes a Consumo, Dispositivos, ChatBot
