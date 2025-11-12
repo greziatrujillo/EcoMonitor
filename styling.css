@@ -1,0 +1,177 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap');
+
+    /*variables*/
+    :root {
+      --verde-electrico: #00C48C;
+      --azul-digital: #3498DB;
+      --gris-fondo: #eeeff2eb;
+      --gris-texto: #2C3E50;
+      --blanco: #FFFFFF;
+      --naranja-alerta: #FF8C42;
+      --morado-acento: #9B59B6;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--gris-fondo);
+      color: var(--gris-texto);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--azul-digital), var(--verde-electrico), var(--morado-acento));
+      color: var(--blanco);
+      width: 100%;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-family: 'Montserrat', sans-serif;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 1200px;
+      background: var(--blanco);
+      margin-top: -1.5rem;
+      border-radius: 25px 25px 0 0;
+      box-shadow: 0 -4px 25px rgba(0,0,0,0.1);
+      padding: 2rem;
+    }
+
+    .dashboard {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .metric {
+      background: var(--gris-fondo);
+      padding: 1.2rem;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .metric:hover {
+      transform: scale(1.03);
+    }
+
+    .metric h2 {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--azul-digital);
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .metric p {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--verde-electrico);
+    }
+
+    .chart-section {
+      background: var(--gris-fondo);
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+    }
+
+    .chart-section h3 {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--gris-texto);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    canvas {
+      width: 100%;
+      height: 220px;
+    }
+
+    .rooms {
+      margin-top: 2rem;
+      background: var(--gris-fondo);
+      border-radius: 20px;
+      padding: 1.5rem;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+    }
+
+    .rooms h3 {
+      text-align: center;
+      color: var(--morado-acento);
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 1rem;
+    }
+
+    .room {
+      margin-bottom: 1.2rem;
+    }
+
+    .room span {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+
+    .bar-container {
+      background: #E0E4E7;
+      border-radius: 10px;
+      height: 12px;
+      overflow: hidden;
+    }
+
+    .bar {
+      height: 100%;
+      border-radius: 10px;
+    }
+
+    .bar.sala { background: var(--azul-digital); width: 25%; }
+    .bar.cocina { background: var(--verde-electrico); width: 35%; }
+    .bar.recamara { background: var(--morado-acento); width: 20%; }
+    .bar.bano { background: var(--naranja-alerta); width: 10%; }
+    .bar.patio { background: #16A085; width: 10%; }
+
+    nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      justify-content: space-around;
+      background: var(--gris-texto);
+      padding: 0.8rem 0;
+      border-radius: 20px 20px 0 0;
+    }
+
+    nav a {
+      color: var(--gris-fondo);
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.3rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--verde-electrico);
+    }

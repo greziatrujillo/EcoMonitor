@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoMonitor </title>
+  <link rel="stylesheet" href="styling.css">
+  
+
+</head>
+
+
+<body>
+  <header>
+    <h1>EcoMonitor</h1>
+    <p>Panel Energético del Hogar</p>
+  </header>
+
+  <main>
+
+    <div class="dashboard">
+      <div class="metric">
+        <h2>Consumo Total del Día</h2>
+        <p>9.8 kWh</p>
+      </div>
+      
+      <div class="metric">
+        <h2>Consumo Mensual</h2>
+        <p>241 kWh</p>
+      </div>
+
+      <div class="chart-section">
+        <h3>Consumo Semanal</h3>
+        <canvas id="energyChart"></canvas>
+      </div>
+
+      <div class="rooms">
+        <h3>Distribución por Áreas (%)</h3>
+
+        <div class="room">
+          <span>Sala <b>25%</b></span>
+          <div class="bar-container"><div class="bar sala"></div></div>
+        </div>
+
+        <div class="room">
+          <span>Cocina <b>35%</b></span>
+          <div class="bar-container"><div class="bar cocina"></div></div>
+        </div>
+
+        <div class="room">
+          <span>Recámara <b>20%</b></span>
+          <div class="bar-container"><div class="bar recamara"></div></div>
+        </div>
+
+        <div class="room">
+          <span>Baño <b>10%</b></span>
+          <div class="bar-container"><div class="bar bano"></div></div>
+        </div>
+
+        <div class="room">
+          <span>Patio <b>10%</b></span>
+          <div class="bar-container"><div class="bar patio"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <nav>
+    <a href="interfaz.html"><span>🏠</span>Inicio</a>
+    <a href="#"><span>📲</span>Perfil</a>
+    <a href="#"><span>⚙</span>Ajustes</a>
+    <a href="#"><span>🤖</span>Chatbot</a>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const ctx = document.getElementById('energyChart');
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'],
+        datasets: [{
+          label: 'kWh',
+          data: [10, 8, 9, 11, 7, 6, 9],
+          borderColor: '#00C48C',
+          backgroundColor: 'rgba(0,196,140,0.3)',
+          fill: true,
+          tension: 0.4,
+          borderWidth: 3
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          y: { beginAtZero: true }
+        }
+      }
+    });
+  </script>
+
+
+</body>
+</html>
