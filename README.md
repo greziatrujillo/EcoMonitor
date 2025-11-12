@@ -10,8 +10,8 @@ In preparation for this interface, it was extremely important for the team to co
 
 Provided is a [link to the Figma](https://www.figma.com/board/6RHvSEqkonh558Hisa46c3/Wireframe?node-id=0-1&t=9yie9gJWK1jVb2IT-1) where the wireframe was planned out.
 
-<img width="1273" height="758" alt="Captura de pantalla 2025-11-11 225239" src="https://github.com/user-attachments/assets/37cef099-53bb-49f2-9ddb-92d286331382" />
 <img width="1254" height="767" alt="Captura de pantalla 2025-11-11 225149" src="https://github.com/user-attachments/assets/c6cff398-13c2-4987-967c-2b75a23f5d3c" />
+<img width="1273" height="758" alt="Captura de pantalla 2025-11-11 225239" src="https://github.com/user-attachments/assets/37cef099-53bb-49f2-9ddb-92d286331382" />
 
 # Documentation
 To further along this process, the team has put together an [outline](https://docs.google.com/document/d/1U9_kavgwV-QiIiSZ7Y1OmBbIROHAyg074xNjw72YdoE/edit?usp=sharing) to provide context and description to the application in development.
