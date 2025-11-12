@@ -34,21 +34,19 @@ Cerrar sesión
  - ChatBot: El usuario puede expresar sus dudas acerca del uso de la página web, el chatbot dará recomendaciones para solucionar sus problemas o resolver sus dudas. Además, el chatbot tiene la capacidad de dar recomendaciones relacionadas con el consumo energético del usuario.
 
 ### Context for the app
-¿Quién es su usuario principal?
+- Usuario principal:
 Está dirigido a los miembros de la familia en un hogar en general o en un negocio, en donde se busque tener un control más monitoreable acerca de los recursos energéticos. Destinada a aquellos que tienen más control sobre los recursos del hogar.
 Aquellas personas que deseen monitorear su consumo de energía en zonas que se vean afectadas por la falta de luz.
 
-¿En qué situaciones utilizará la interfaz?
+- Situaciones de uso
 Para visualizar fácilmente el consumo de los recursos de la casa y hacer más fácil la experiencia rutinaria.
 
-¿Qué información necesita ver de forma inmediata?
-Para el buen control energético del hogar es necesario que en la página web se pueda ver con claridad el consumo de luz diario conforme pasó del dia. Tambien se deberá actualizar la interfaz cada vez que se abra la aplicación o un botón que refresque los datos.
+- Información inmediata
+Para el buen control energético del hogar es necesario que en la página web se pueda ver con claridad el consumo de luz diario conforme pasó del dia. Tambien se deberá actualizar la interfaz cada vez que se abra la aplicación o un botón que refresque los datos. El dashboard con la información general del consumo. La página del consumo de los dispositivos.
 
-¿Qué ve primero? El dashboard con la información general del consumo.
-La página del consumo de los dispositivos.
-
-¿Cómo navega entre pantallas? Mediante un menú en la parte inferior de la página web.
+- Navegación
+Mediante un menú en la parte inferior de la página web.
 Un dashboard con un resumen de la información relevante.
 
-¿Cómo ejecuta una acción o revisa datos?
+- Acciones o revisiones
 Mediante un menú en la parte inferior en donde se tengan las pestañas correspondientes a Consumo, Dispositivos, ChatBot
