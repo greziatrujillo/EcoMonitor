@@ -10,31 +10,21 @@ In preparation for this interface, it was extremely important for the team to co
 
 Provided is a [link to the Figma](https://www.figma.com/board/6RHvSEqkonh558Hisa46c3/Wireframe?node-id=0-1&t=9yie9gJWK1jVb2IT-1) where the wireframe was planned out.
 
-<img width="1254" height="767" alt="Captura de pantalla 2025-11-11 225149" src="https://github.com/user-attachments/assets/c6cff398-13c2-4987-967c-2b75a23f5d3c" />
-<img width="1273" height="758" alt="Captura de pantalla 2025-11-11 225239" src="https://github.com/user-attachments/assets/37cef099-53bb-49f2-9ddb-92d286331382" />
+<img width="1151" height="693" alt="image" src="https://github.com/user-attachments/assets/8d41be82-acf6-4901-94f9-bc3797b8a3a6" />
+<img width="1165" height="684" alt="image" src="https://github.com/user-attachments/assets/360e85df-6fcd-4be4-9ce0-01eccd2c9e5e" />
+
 
 # Documentation
 To further along this process, the team has put together an [outline](https://docs.google.com/document/d/1U9_kavgwV-QiIiSZ7Y1OmBbIROHAyg074xNjw72YdoE/edit?usp=sharing) to provide context and description to the application in development.
 
 ### Expected pages
- - Dashboard principal: vista general de datos y estado del dispositivo.
-Alertas o notificaciones: muestra eventos importantes.
-Historial o gráficas: visualiza datos a lo largo del tiempo.
-Dispositivos: Nombre, ubicación, consumo de cada uno de los dispositivos. Se pueden agregar nuevos dispositivos o modificar la información de los ya existentes.
+ - Dashboard: This will be a general overview of data and the state of devices connected. It will display important notifications or alerts as well as display data in different increments of time. Additionally, the user will be able to see a device with its name and each of their consumption.
 
- - Pantalla de control: permite al usuario ejecutar acciones o configuraciones.
-Agregar dispositivos. 
-Cambiar nombre de dispositivos.
-Ordenar dispositivos
-Eliminar dispositivos. 
+ - Control panel: This section will allow the user to configure devices such as add a new device, rename it, reorder the devices or elimiate a specific device.
 
- - Perfil
-Visualizar datos
-Cambiar contraseña
-Preferencias
-Cerrar sesión
+ - Profile: This section will allow the user to edit any personal or account related details, as well as configure preferences or close the account indefinitely.
 
- - ChatBot: El usuario puede expresar sus dudas acerca del uso de la página web, el chatbot dará recomendaciones para solucionar sus problemas o resolver sus dudas. Además, el chatbot tiene la capacidad de dar recomendaciones relacionadas con el consumo energético del usuario.
+ - ChatBot: In this section, the user can seek help with questions related to the app or their consumption. The chatbot will provide reccomendations to solve any problems and may use the data collected in the app to cater these reccomendations to the specific user.
 
 ### Context for the app
 - Usuario principal:
